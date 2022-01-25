@@ -1,0 +1,21 @@
+body{
+    background-color: slategray;
+}
+
+h1{
+    color: rgb(216, 216, 51);
+}
+
+.friend{
+    background-color: lightblue;
+}
+
+.friend > h3{
+    color: rgb(40, 207, 49);
+    text-transform: uppercase;
+}
+
+.friend > p{
+    color: whitesmoke;
+}
+
