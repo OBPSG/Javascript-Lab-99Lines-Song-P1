@@ -30,4 +30,9 @@ function Sing99LinesSong(singer) {
   }
 }
 
-Sing99LinesSong("Andrew");
+//Sing99LinesSong("Andrew");
+for(let i = 0; i < friends.length; i++)
+{
+  console.log(friends[i].toUpperCase() + ":");
+  Sing99LinesSong(friends[i]);
+}
